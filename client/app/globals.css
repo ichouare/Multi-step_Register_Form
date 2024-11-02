@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root
+{
+  --btn_bg : #040510
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.btn{
+  color: #FFF;
+  background-color: var(--btn_bg);
+  @apply flex items-center gap-2 h-14 w-32 rounded-md font-semibold text-2xl px-4 capitalize tracking-wider cursor-pointer ;
+
+}
